@@ -8,6 +8,11 @@ body{
     text-align : center;
 }
 
+h1{
+    color : #eb9892;
+    margin-top : 40px;
+}
+
 .container{
     height : 70vh;
     display : flex;
@@ -41,6 +46,30 @@ body{
     padding : 1rem;
     margin : 3rem;
     background-color : #52796f;
-    color : #cad2c5;
+    color : #e0edd9;
     font-size : 1.5rem;
+}
+
+#new-button{
+    border-radius : 1rem;
+    padding : 1rem;
+    margin-bottom : 3rem;
+    background-color : #52796f;
+    color : #e0edd9;
+    font-size : 1.5rem;
+    margin-top : 30px;
+}
+
+.msg{
+    font-size : 3.5rem;
+    color : #e0edd9;
+}
+
+.msg-container{
+    margin-top : 60px;
+    margin-bottom : 50px;
+}
+
+.hide{
+    display :  none;
 }
